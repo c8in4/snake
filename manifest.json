@@ -1,0 +1,11 @@
+{
+    "name": "Snake Progressive Web Game",
+    "short_name": "Snake",
+    "description": "Snake with touch input",
+    "icons": [{}],
+    "start_url": "/Snake/index.html",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "theme_color": "#333333",
+    "background_color": "#333333"
+}
