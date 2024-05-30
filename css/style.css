@@ -50,10 +50,10 @@ main {
 
 #canvas {
     border: 0.1rem solid var(--clr-primary);
-    width: 35rem;
-    height: 35rem;
-    /* max-height: 70dvh;
-    max-width: 70dvb; */
+    width: 30rem;
+    height: 30rem;
+    max-height: 70vw;
+    max-width: 70dvw;
 }
 
 button {
