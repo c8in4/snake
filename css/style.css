@@ -11,26 +11,24 @@
 
 html {
     font-size: 62.5%;
-    /* overscroll-behavior: none; */
+    overscroll-behavior: none;
 }
 
 body {
-    /* overscroll-behavior: none; */
+    overscroll-behavior: none;
     background-color: var(--bg-primary);
     color: var(--clr-primary);
     font-size: 1.6rem;
     font-family: "OpenSans", Arial, Helvetica, sans-serif;
-    height: 100svh;
+    height: 100vh;
+    width: 100%;
     margin: 0;
+    outline: 2px solid red;
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
-}
-
-.justify-content-space-between {
-justify-content: space-between;
 }
 
 .justify-content-center {
@@ -52,11 +50,10 @@ main {
 
 #canvas {
     border: 0.1rem solid var(--clr-primary);
-
-    width: 50rem;
-    height: 50rem;
-    max-height: 70dvh;
-    max-width: 70dvb;
+    width: 35rem;
+    height: 35rem;
+    /* max-height: 70dvh;
+    max-width: 70dvb; */
 }
 
 button {
@@ -64,6 +61,7 @@ button {
     color: var(--bg-primary);
     border: 0.1rem solid var(--bg-primary);
     padding: 0.8rem 3.2rem;
+    margin: 0.8rem;
     border-radius: 0.8rem;
     font-size: larger;
     font-weight: bold;
