@@ -3,7 +3,7 @@
     "short_name": "Snake",
     "description": "Snake with touch input",
     "icons": [{}],
-    "start_url": "/Snake/index.html",
+    "start_url": "/snake/index.html",
     "display": "fullscreen",
     "orientation": "portrait",
     "theme_color": "#333333",

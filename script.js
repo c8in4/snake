@@ -2,10 +2,9 @@
 to dos:
 - responsive canvas size
     - kind of solved (css - canvas - max-width)
-- touch/swipe input
 - let user change gamespeed
 - let user change cols and rows
-- timmer for "competetiv" playing
+- timer for "competetive" playing
 */
 
 let canvas = document.getElementById("canvas");
@@ -32,6 +31,9 @@ let count = 0;
 
 placeFood();
 draw();
+
+let button = document.getElementById("startButton");
+button.addEventListener("click", startGame);
 
 function startGame() {
     if (!gameRunning && !gameLost) {

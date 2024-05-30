@@ -5,40 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
     <script src="script.js" defer></script>
     <title>Snake</title>
 </head>
 
-<body>
+<body class="flex-column justify-content-space-between align-items-center">
     <header>
-        <h1>Snake v2</h1>
+        <h1>Snake</h1>
     </header>
-    <main>
-        <canvas id="canvas" width="350px" height="350px">
+    <main class="flex-column justify-content-space-between align-items-center">
+        <canvas id="canvas">
         </canvas>
-        <br>
-        <div id="buttons">
-            <button type="button" id="startButton" onclick="startGame()">Start</button>
-        </div>
-        <br>
-        <div id="scores">
+        <button type="button" id="startButton">Start</button>
+        <div class="text-align-center">
             Counter:
-            <div id="counter">
-                0
-            </div>
-            <br>
+            <span id="counter">0</span>
             <div>
                 Highscore:
-                <div id="highScore">
-                    0
-                </div>
+                <span id="highScore">0</span>
             </div>
         </div>
     </main>
 
-    <footer>
+    <footer class="flex-column justify-content-center align-items-center">
         <a href="https://c8in4.github.io/" target="_self">
             made by c8in4
         </a>
