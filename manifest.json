@@ -9,7 +9,7 @@
             "sizes": "512x512"
         }
     ],
-    "start_url": "/snake/index.html",
+    "start_url": "https://c8in4.github.io/snake/",
     "display": "fullscreen",
     "orientation": "portrait",
     "theme_color": "#000000",
