@@ -9,7 +9,7 @@
             "sizes": "512x512"
         }
     ],
-    "start_url": "snake/index.html",
+    "start_url": "/index.html",
     "display": "fullscreen",
     "orientation": "portrait",
     "theme_color": "#000000",
