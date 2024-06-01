@@ -1,11 +1,17 @@
 {
-    "name": "Snake Progressive Web Game",
+    "name": "Snake PWA",
     "short_name": "Snake",
     "description": "Snake with touch input",
-    "icons": [{}],
-    "start_url": "/snake/index.html",
+    "icons": [
+        {
+            "src": "snake-icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "snake/index.html",
     "display": "fullscreen",
     "orientation": "portrait",
-    "theme_color": "#333333",
+    "theme_color": "#000000",
     "background_color": "#333333"
 }
