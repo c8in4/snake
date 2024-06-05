@@ -1,12 +1,3 @@
-/*
-to dos:
-- responsive canvas size
-    - kind of solved (css - canvas - max-width)
-- let user change gamespeed
-- let user change cols and rows
-- timer for "competetive" playing
-*/
-
 // should help with iphone scrolling:
 window.addEventListener("scroll", (e) => {
     e.preventDefault();
@@ -214,9 +205,7 @@ function keyDown(e) {
     }
 }
 
-
 //get touch input
-
 let xDown = null;
 let yDown = null;
 

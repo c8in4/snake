@@ -17,12 +17,11 @@ html {
 body {
     overscroll-behavior: none;
     position: fixed;
+    height: 100dvh;
+    width: 100dvw;
     background-color: var(--bg-primary);
     color: var(--clr-primary);
     font-size: 1.6rem;
-    font-family: "OpenSans", Arial, Helvetica, sans-serif;
-    height: 100dvh;
-    width: 100dvw;
     margin: 0;
 }
 
