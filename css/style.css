@@ -16,6 +16,7 @@ html {
 
 body {
     overscroll-behavior: none;
+    position: fixed;
     background-color: var(--bg-primary);
     color: var(--clr-primary);
     font-size: 1.6rem;

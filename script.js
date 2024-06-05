@@ -7,6 +7,12 @@ to dos:
 - timer for "competetive" playing
 */
 
+// should help with iphone scrolling:
+window.addEventListener("scroll", (e) => {
+    e.preventDefault();
+    window.scrollTo(0, 0);
+  });
+
 let canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 let snake = [
